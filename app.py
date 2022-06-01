@@ -11,7 +11,7 @@ st.sidebar.title('Olympic Analysis')
 
 user_menu = st.sidebar.radio(
     'Select an option',
-    ('Dataset','Medal Tally', 'Overall Analysis', 'Country-Wise Analysis')
+    ('Dataset','Medal Tally', 'Overall Analysis')
 )
 st.sidebar.header('Medal Tally')
 if user_menu == 'Dataset':
